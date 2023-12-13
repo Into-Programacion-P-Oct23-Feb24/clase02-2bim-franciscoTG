@@ -19,14 +19,14 @@ public class Ejemplo03 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
-        
+        // declara todos los elemetos en una misma variable
         // arreglo de tipo entero
         int[] arreglo2;
         arreglo2 = new int[5];
-        
+        //declara el tipo de variable y el tipo de elementos
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new
-        
+        //los elementos ya estan dados y sigue con la misma variable tipo int
         // arreglo de doubles - 3 elementos
         double[] arreglo4 = {5.1, 10.2, 15.2}; // sin new
         
@@ -35,3 +35,4 @@ public class Ejemplo03 {
     }
 
 }
+
